@@ -14,4 +14,7 @@ git reflog - HEAD 이동 정보
 git remote add origin {주소} - 주소의 프로젝트를 원격저장소로 사용하는데, 이름은 origin으로.
 git push -u origin master - 내용 푸시
 git push -u origin +master - [rejected] master -> master (fetch first) error: failed to push some refs to 발생하면 강제 푸시
+git clone {URL} 레포지토리 로컬로 복사
+git pull - 원격저장소의 최신 커밋 버전을 다운로드
+
 ```
