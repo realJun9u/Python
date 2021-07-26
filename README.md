@@ -1,4 +1,4 @@
-# Python
+# Git
 ```
 git init - .git 생성
 git config user.name "realJun9u"
@@ -17,4 +17,16 @@ git push -u origin +master - [rejected] master -> master (fetch first) error: fa
 git clone {URL} 레포지토리 로컬로 복사
 git pull - 원격저장소의 최신 커밋 버전을 다운로드
 
+```
+# Anaconda
+```
+conda create --name 가상환경이름 --clone 복제할가상환경이름 python=원하는버전
+conda activate 가상환경이름
+conda --version #아나콘다 버전확인
+conda update conda #아나콘다 업데이트
+conda info --envs #가상환경 리스트 확인
+conda list #현재 activate 환경에 설치된 패키지 조회
+conda remove -n 환경이름 패키지이름 #해당 경에 패키지 삭제
+conda search -n 환경이름 패키지이름 #해당 환경에 패키지 찾기
+sudo ufw allow 8888 - for Jupyter 
 ```
